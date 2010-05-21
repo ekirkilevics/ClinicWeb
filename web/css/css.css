@@ -1,0 +1,61 @@
+BODY  {
+	 border: 0; margin: 0;
+}
+
+.table {
+	border: 0px;
+	border-top: 1px solid #111111;
+	border-left: 1px solid #111111;
+}
+
+.tblrel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	border: 1px solid #CCCCCC;
+	border-top: 0px solid #CCCCCC;
+	border-left: 0px solid #CCCCCC;
+}
+
+.botao {
+	font: 11px Tahoma, Verdana, Arial, Helvetica;
+	background: #E4E8E9;
+	color: #000000;
+	border: 1px solid #000000;
+	padding: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+p {
+	margin: 8px 0  8px 0;
+}
+
+#dhtmltooltip{
+	position: absolute;
+	left: -300px;
+	width: 150px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+#dhtmlpointer{
+	position:absolute;
+	left: -300px;
+	z-index: 101;
+	visibility: hidden;
+}
+
+novapagina {
+	page-break-before: always;
+}

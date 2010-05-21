@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.2-b05-RC1. --><xs:schema xmlns:tns="http://recursos/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://recursos/">
+
+<xs:element name="getTextHelp" type="tns:getTextHelp"></xs:element>
+
+<xs:element name="getTextHelpResponse" type="tns:getTextHelpResponse"></xs:element>
+
+<xs:complexType name="getTextHelp">
+<xs:sequence>
+<xs:element name="codigo" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTextHelpResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
